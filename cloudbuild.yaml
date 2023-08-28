@@ -31,3 +31,6 @@ steps:
 images:
 - 'eu.gcr.io/$PROJECT_ID/cloudbuild-android:${SHORT_SHA}'
 - 'eu.gcr.io/$PROJECT_ID/cloudbuild-android:latest'
+options: 
+- logging: CLOUD_LOGGING_ONLY
+
